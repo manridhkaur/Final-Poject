@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>                           <!--adding meta-->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Angel Perfume" content="Html Final Project">
+	<meta name="robots" content="noindex,nofollow">
+	<link rel="stylesheet" href="./Css/style.css">  <!--adding the link for css -->       
+	<title>Final Project</title>           <!--final project for semester 1-->
+</head>
+
+<body>
+	<header>
+		<script src="javascript/script.js"></script>
+		<div>
+			<a href="index.html"><img src="./img/navlogo.png" alt="sample logo"></a>        <!--logo image-->
+		</div>
+		<nav>
+			<menu>
+				<li><a href="index.html">Home</a></li>       
+				<li><a href="about.html">About</a></li>             <!--about page-->
+				<li><a href="#product">Product</a></li>                <!--product image-->
+				<li><a href="login.html">Login</a></li>                     <!--login page-->
+				<li><a href="#contact">Contact</a></li>            <!--contact page-->
+			</menu>
+		</nav>
+	</header>
+
+	<div class="homeimg">
+		<img src="./img/bg.jpeg.jpg" alt="home image">            <!--image to make home page attractive-->
+	</div>
+
+	<section class="title">
+		<h2>Angel Perfume</h2>                       <!--name of perfume-->
+		<p>Perfume is a mark of female identity and the final touch of her style!</p>  <!--quote for home page-->
+	</section>
+
+	<section id="product" class="imghome">             
+		<div class="card">
+			<img src="./img/product1.jpg" alt="Product Image">                       <!--image of product1-->
+			<h3>$349</h3>
+				<ul><li><a class="homebuttons" href="thankyou.html">Add to cart</a></li></ul>
+		</div>
+		<div class="card"> 
+			<img src="img/product2.jpg" alt="Product Image">                    <!--image of product 2-->
+			<h3>$369</h3>
+			<ul><li><a class="homebuttons" href="thankyou.html">Add to cart</a></li></ul>
+		</div>
+	</section>
+
+	<footer>
+		<div class="company-logo">            
+			<a href=""><img src="./img/navlogo.png" alt="sample logo"></a>                 <!--logo-->
+		</div>
+		<div class="company-info">
+			<p>Angel Perfume</p>                     <!--about my product-->
+			<p>123 AP, Perfume Market</p>
+			<p>Phone: 123-456-7890</p>
+			<p>Email: info@ancientperfume.com</p>
+		</div>
+		<div id="contact" class="contact-form">             <!--creating a contact form-->
+			<h2>Contact Us</h2>
+			<form>
+				<label for="name">Name:</label>                                     
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+	</footer>
+</body>
+
+</html>

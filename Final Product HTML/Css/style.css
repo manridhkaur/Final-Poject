@@ -1,0 +1,340 @@
+html{scroll-behavior: smooth;}
+body{
+	margin: 0px;
+}
+
+a{
+     font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+h2{	
+font-family: 'Unbounded', cursive;
+}
+
+li{font-family: 'Headland One', serif;}
+p{font-family: 'Abril Fatface', cursive;}
+
+header{
+    background-color: #0e0e0e;
+}
+header a{
+    text-decoration: none;
+    color: #f4f4f4; 
+}
+header nav a:hover{
+	color: #f57f17;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #0e0e0e;
+	display: flex;
+    align-items: center;
+	width: auto;
+    height: 125px;
+}
+header div{
+	width: auto;
+    height: 115px;
+    flex-grow: 1;
+}
+header div img{
+	width: auto;
+	height: 101px;
+    padding-left: 15px;
+}
+header div h1{
+    color: #f4f4f4;
+    font-size:23px;
+}
+
+header nav menu{
+	list-style: none;
+    display: flex;
+    margin: 0px;
+}
+
+header nav menu li{
+	padding: 0px 40px;
+}
+ /* NAVIGATION */
+
+/*INDEX*/
+.homeimg img{
+    width: 100%;
+    height: 70vh;
+}
+.title h2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.title p{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.imghome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin-left: 3em;
+    margin-right: 3em;
+    gap: 1em;
+    margin-bottom: 2em;
+    padding-top: 22px;
+}
+
+.imghome div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imghome div a {
+    color: black;
+    justify-content: center;
+}
+.imghome div {
+    border: 1px solid black;
+    border-radius: 2%;
+    display: block;
+}
+.card img {
+    width: 100%;
+    height: 60vh;
+    border-radius: 2%;
+}
+.card h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card ul li{
+    list-style-type: none;
+    padding-left: 24px;
+}
+
+
+.homebuttons {
+    background: #ff9900;
+    font-family: Sans-serif;
+    font-size: 18px;
+    height: 40px;
+    width: 140px;
+    margin: 20px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .3em;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.homebuttons a {
+    text-decoration: none;
+
+}
+
+.homebuttons:hover {
+    background-color: #0e0e0e;
+    color: #f4f4f4;
+}
+/*INDEX*/
+
+/*ABOUT*/
+.aboutsection{
+    width: 100%;
+    min-height: 50vh;
+    background-color: #ff6b35;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutsection h1{
+    color: #eef4ed;
+    font-size: 4.7em;
+    text-shadow: 4px 2px 4px(0,0,0,.5);
+}
+.imgabout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin-left: 3em;
+    margin-right: 3em;
+    gap: 1em;
+    margin-bottom: 2em;
+    padding-top: 22px;
+}
+.imgabout div {
+    border: 1px solid black;
+    border-radius: 2%;
+    display: block;
+}
+.aboutimages img {
+    width: 100%;
+    height: 60vh;
+    border-radius: 2%;
+}
+.aboutimages h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*ABOUT*/
+
+/* LOGIN PAGE */
+#loginpage{
+    width: auto;
+    width: 100%;
+    height: 100%;
+    background-image: url("/img/angelperfume.jpeg.jpg");
+    background-color: #f4f4f4;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    font-family: sans-serif;
+}
+.loginbox{
+    width: 320px;
+    height: 430px;
+    background-color: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.avatar {
+    width: 100px;
+    height: 100px;
+    margin-left: 80px;
+    position: absolute;
+    top: -50px;
+   
+}
+.loginbox > h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: 200;
+}
+.loginbox input{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"] , input[type="password"]
+{border: none;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline: none;
+width: 200px;
+height: 38px;
+color: white;
+font-size: 17px;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 80px;
+    background-color: rgb(40, 146, 121);
+    color: white;
+    font-size:18px ;
+}
+.loginbox input[type="submit"]:hover{
+  cursor:pointer;
+  background-color: rgb(220, 149, 26);
+  color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: darkgray;
+}
+.loginbox a:hover{
+    color: white;
+}
+/* LOGIN PAGE */
+
+
+
+
+
+/*Footer*/
+footer {
+	background-color: #333;
+	color: white;
+	padding: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.company-logo img {
+	max-width: 200px;
+}
+
+.company-info p {
+	margin: 0;
+    color: #f2f2f2
+}
+
+.contact-form {
+	max-width: 500px;
+	margin-top: 20px;
+}
+
+.contact-form h2 {
+	margin: 0 0 20px;
+}
+
+.contact-form label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.contact-form textarea {
+	height: 100px;
+}
+
+.contact-form button {
+	background-color: #ffcc00;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.contact-form button:hover {
+	background-color: #ff9900;
+}
+/*Footer*/
